@@ -1,0 +1,257 @@
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+footer p,
+#author,
+#copyright,
+.related-author,
+.related {
+  color: #2f3d7e;
+}
+h1 {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 1px 1px #ff8040, 2px 2px #ff8040, 3px 3px #ff8040,
+    4px 4px #ff8040, 5px 5px #ff8040, 6px 6px #ff8040, 7px 7px #ff8040,
+    8px 8px #ff8040;
+  font: Bold 52px Sketch_Block;
+  -webkit-transition: all 0.12s ease-out; /*chrome & safari*/
+  -moz-transition: all 0.12s ease-out; /*firefox 3.7*/
+  -o-tramsition: all 0.12s ease-out; /*Opera*/
+}
+
+h1:hover {
+  font-size: 55px;
+  color: #fff;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  text-shadow: 2px 2px #409fff, 4px 4px #409fff, 6px 6px #409fff,
+    8px 8px #409fff, 10px 10px #ff8080, 12px 12px #ff8080, 14px 14px #ff8080,
+    16px 16px #ff8080, 16px 16px #f1fb42, 18px 18px #f1fb42, 20px 20px #f1fb42,
+    22px 22px #f1fb42;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+body h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: rgb(0, 0, 0);
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  font-family: Pacifico;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+footer p {
+  font-size: 16px;
+}
+/*article header p {
+  font-style: italic;
+}*/
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  color: red;
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+  color: #61669d;
+}
+.related {
+  list-style: none;
+  margin-left: -5vmin;
+}
+body {
+  background-color: #f2f0d5;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header {
+  background-color: #fadc56;
+  border-top: 12px solid rgb(111, 49, 227);
+}
+aside {
+  border-top: 5px solid rgb(111, 49, 227);
+  border-bottom: 5px solid rgb(111, 49, 227);
+  background-image: url(file:///D:/Downloads/12174_f8b8591aebf55992bd39cea3a5fc13be.jpg);
+  padding: -10px 40px;
+  width: 500px;
+  box-sizing: border-box;
+  padding-top: 1px;
+  margin-top: 100px;
+}
+
+.h3-header {
+  font-size: 30px;
+  color: #1d9099;
+  position: relative;
+  top: -3px;
+  left: -3px;
+  text-shadow: 2px 2px #e79c10, 4px 4px #e79c10, 6px 6px #e79c10,
+    8px 8px #e79c10, 10px 10px #d53a33, 12px 12px #d53a33, 14px 14px #d53a33,
+    16px 16px #d53a33;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin-top: -3vmin;
+}
+.main-header {
+  padding: 0px 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+aside h4 {
+  font-size: 25px;
+  color: rgb(111, 49, 227);
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  margin-right: 200px;
+}
+aside a {
+  color: #61669d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+aside p {
+  color: rgb(111, 49, 227);
+}
+.title-1,
+.title-2 {
+  font-weight: unset;
+  font-size: 33px;
+}
+h2::before {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: rgb(252, 173, 27);
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -30px;
+  right: 170px;
+}
+h2 {
+  position: relative;
+  font-size: 32px;
+  font-family: "CoreCircus", sans-serif;
+}
+.author-img {
+  float: left;
+}
+.author {
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.post-img {
+  margin-top: 2vmin;
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+article {
+  margin-bottom: 60px;
+  width: 815px;
+  float: left;
+}
+aside {
+  width: 350px;
+  float: right;
+  height: 530px;
+}
+footer {
+  clear: both;
+}
+.box {
+  display: flex;
+  margin-bottom: -3 0px;
+}
+
+.box .inner {
+  width: 400px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box .inner:first-child {
+  background-color: #fdcd2b;
+  color: rgb(255, 166, 49);
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+  background-color: #fef200;
+  color: rgb(255, 200, 127);
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+  animation-delay: 2.5s;
+  left: -100%;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
